@@ -11,8 +11,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		// SpringApplication.run(DemoApplication.class, args);
 		// MarioGame game = new MarioGame();
-		SuperContraGame contra = new SuperContraGame();
-		GameRunner runner = new GameRunner(contra);
+		SuperContraGame game = new SuperContraGame();
+		GameRunner runner = new GameRunner(game);
 		runner.runGame();
 	}
 
